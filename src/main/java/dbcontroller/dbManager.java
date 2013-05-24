@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class DbManager {
 
-    public void dbInit(){
+    public static void main(String[] args){
         try {
             Class.forName("org.h2.Driver");
             try (Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "Olga", "jgd")) {
@@ -18,6 +18,10 @@ public class DbManager {
                                 + "id INT NOT NULL AUTO_INCREMENT, "
                                 + "postDate VARCHAR(64), "
                                 + "message VARCHAR(64), PRIMARY KEY (id))");
+
+
+            new Launch().launchInit(connection);
+
 
             } catch (SQLException e) {
                 e.printStackTrace();
