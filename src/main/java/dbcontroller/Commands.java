@@ -1,6 +1,8 @@
 package dbcontroller;
 
+import java.sql.*;
+
 public interface Commands {
 
-    public void exec(String line, GuestBookController storage);
+    public void exec(String line, Connection connection, GuestBookController storage);
 }

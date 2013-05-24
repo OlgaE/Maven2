@@ -1,18 +1,21 @@
 package dbcontroller;
 
+import java.sql.*;
 import java.io.InputStream;
 import java.util.Scanner;
 
 public class Input {
 
-    GuestBookController storage;
+//    GuestBookController storage;
+//    Connection connection;
+//
+//    public Input(Connection connection, GuestBookController storage){
+//        this.connection = connection;
+//        this.storage = storage;
+//        readInput();
+//    }
 
-    public Input(GuestBookController storage){
-        this.storage = storage;
-        readInput();
-    }
-
-    public void readInput(){
+    public void readInput(Connection connection, GuestBookController storage){
 
         // Reading System.in:
         InputStream in = System.in;
@@ -24,7 +27,7 @@ public class Input {
                 String[] fullData = nextLine.split(" ");
 
                 try{Commands command = Factory.createCommand(fullData[0]);
-                    command.exec(nextLine, storage);
+                    command.exec(nextLine, connection, storage);
                 } catch(Exception e){
                     if (fullData[0].equals("exit")){
                         System.exit(0);

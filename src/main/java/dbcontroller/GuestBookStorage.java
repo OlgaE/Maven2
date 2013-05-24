@@ -10,9 +10,9 @@ public class GuestBookStorage implements GuestBookController {
 
 
     @Override
-    public void addRecord(String message) {
+    public void addRecord(String message, Connection connection) {
 
-        try (Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "Olga", "jgd")) {
+        try {
 
             String s1 = "INSERT INTO autoInc1 (postDate, message) values (?,?)";
             PreparedStatement statementNew = connection.prepareStatement(s1, Statement.RETURN_GENERATED_KEYS);
@@ -28,11 +28,11 @@ public class GuestBookStorage implements GuestBookController {
     }
 
     @Override
-    public List<Record> getRecords() {
+    public List<Record> getRecords(Connection connection) {
 
         List<Record> list = new ArrayList<>();
 
-        try (Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "Olga", "jgd")) {
+        try {
 
             Statement stmt = connection.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_UPDATABLE);
             ResultSet res = stmt.executeQuery("SELECT * FROM autoInc1");

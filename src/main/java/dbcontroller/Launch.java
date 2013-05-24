@@ -1,17 +1,16 @@
 package dbcontroller;
 
+import java.sql.*;
+
 public class Launch {
 
-    public static void main(String[] args) {
-
-        // Creating a database:
-        DbManager database = new DbManager();
-        database.dbInit();
+    //public static void main(String[] args) {
+    public void launchInit(Connection connection) {
 
         // Creating a storage object:
         GuestBookController storage = new GuestBookStorage();
 
         // Launching:
-        new Input(storage);
+        new Input().readInput(connection, storage);
     }
 }
