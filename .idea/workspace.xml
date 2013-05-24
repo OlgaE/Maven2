@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/Add.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/Add.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/Commands.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/Commands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/Factory.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/Factory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/GuestBookController.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/GuestBookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/GuestBookStorage.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/GuestBookStorage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/Input.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/Input.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/Launch.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/Launch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dbcontroller/List.java" afterPath="$PROJECT_DIR$/src/main/java/dbcontroller/List.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -24,7 +21,7 @@
     <file path="/DataBaseTest3.java" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369150430480" ignored="false" />
     <file path="/Cmd.java" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369128838081" ignored="false" />
     <file path="/DataBaseTest4.java" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369152346020" ignored="false" />
-    <file path="/Dummy.txt" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369389976643" ignored="false" />
+    <file path="/Dummy.txt" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369392570896" ignored="false" />
     <file path="/GuestBookStorage.java" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369390699792" ignored="false" />
     <file path="/Input.java" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369391020667" ignored="false" />
     <file path="/Commands.java" changelist="f3511a7d-1d0e-4a69-bc7a-8b955fa31dcd" time="1369390475381" ignored="false" />
@@ -107,7 +104,7 @@
       <file leaf-file-name="DbManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/DbManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="49" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+            <state line="23" column="16" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +113,7 @@
       <file leaf-file-name="Input.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Input.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="41" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+            <state line="30" column="41" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,19 +121,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Launch.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Launch.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Launch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+            <state line="13" column="51" selection-start="340" selection-end="340" vertical-scroll-proportion="0.58933336">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factory.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Factory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="328" selection-end="328" vertical-scroll-proportion="0.544">
+            <state line="12" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -211,9 +208,9 @@
         <option value="$PROJECT_DIR$/src/main/java/dbcontroller/List.java" />
         <option value="$PROJECT_DIR$/src/main/java/dbcontroller/Add.java" />
         <option value="$PROJECT_DIR$/src/main/java/dbcontroller/GuestBookStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dbcontroller/DbManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/dbcontroller/Input.java" />
         <option value="$PROJECT_DIR$/src/main/java/dbcontroller/Launch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dbcontroller/DbManager.java" />
       </list>
     </option>
   </component>
@@ -675,7 +672,15 @@
       <created>1369382041592</created>
       <updated>1369382041592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working with databases">
+      <created>1369392211422</created>
+      <updated>1369392211422</updated>
+    </task>
+    <task id="LOCAL-00003" summary="working with databases">
+      <created>1369392583493</created>
+      <updated>1369392583493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -700,9 +705,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32695374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32695374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -721,7 +726,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297162" sideWeight="0.75540763" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1871961" sideWeight="0.67304623" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22690438" sideWeight="0.67304623" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.307815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -871,26 +876,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/DbManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="49" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/GuestBookStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="12" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Launch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,18 +922,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="41" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+        <state line="30" column="41" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Factory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dbcontroller/Launch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="328" selection-end="328" vertical-scroll-proportion="0.544">
+        <state line="13" column="51" selection-start="340" selection-end="340" vertical-scroll-proportion="0.58933336">
           <folding />
         </state>
       </provider>
